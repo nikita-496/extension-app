@@ -90,10 +90,10 @@
     </div>
   </transition>
 
-  <a class="button">
+  <a href="/chrome/dist.zip" download class="button">
     <braveIcon/>
     </a>
-  <a  class="button">
+  <a  href="/chrome/dist.zip" download class="button">
     <operaIcon/>
     </a>
     </div>
