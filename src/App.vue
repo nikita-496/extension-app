@@ -13,7 +13,7 @@ const showFirefox = ref(false);
   <div class="wrapp">
     <img class="logo" src="./assets/bdns-64.svg" alt="bdns-logo" />
     <h1 class="intro">BDNS Wallet in your browser</h1>
-    <p class="suggested">Download the extension to your favorite browser</p>
+    <p class="suggested">Download the extension for <b>testing</b> to your favorite browser</p>
     <div class="links">
       <a
         href="/chrome/dist.zip"
@@ -119,6 +119,26 @@ const showFirefox = ref(false);
         <braveIcon />
       </a>
       <a href="/chrome/dist.zip" download class="button">
+        <operaIcon />
+      </a>
+    </div>
+    <p class="suggested">Download the extension for <b>publish</b> to your favorite browser</p>
+    <div class="links">
+      <a
+        href="/chrome/release.zip"
+        download
+        class="button"
+      >
+      <chromeIcon />
+      </a>
+      <a  href="/chrome/release.zip"
+        download
+        class="button">
+        <braveIcon />
+      </a>
+      <a  href="/chrome/release.zip"
+        download
+        class="button">
         <operaIcon />
       </a>
     </div>
